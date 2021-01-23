@@ -34,7 +34,7 @@ module.exports = {
     'import/resolver': {
       node: true,
       alias: {
-        map: [['@app', './src']],
+        map: [['jeno', './lib/jeno']],
         extensions: ['.ts', '.js'],
       },
     },
